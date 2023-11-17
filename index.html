@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FM STORE MUSIC</title>
+
+    <!-- FONT CDN LINK-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- CSS FILE LINK-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION START -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="img/LOGO_FM.png" alt="Hidup Adalah Tentang Irama" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" #id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="menu/bm800.png" alt="" />
+          <div class="content">
+            <h3>BM-800</h3>
+            <div class="price">Rp.500.000/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="menu/shure.png" alt="" />
+          <div class="content">
+            <h3>Mic Shure</h3>
+            <div class="price">Rp.700.000/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="menu/Stand-Mic-removebg-preview.png" alt="" />
+          <div class="content">
+            <h3>Stand Mic</h3>
+            <div class="price">Rp.150.000/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="menu/acoustic-guitar-grey.png" alt="" />
+          <div class="content">
+            <h3>Guitar Acoustic Grey</h3>
+            <div class="price">Rp.1.000.000/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!-- HEADER SECTION START -->
+
+    <!-- HOME SECTION STARTS -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>MUSIK RECORDING MURAH BERKUALITAS!</h3>
+        <p>
+          Jangan Biarkan Bakat Anda Terbuang. Dapatkan alat recording dan musik
+          berkualitas dengan harga terjangkau di <b>FM STORE MUSIC.</b>
+        </p>
+        <a href="#" class="btn">gets yours now</a>
+      </div>
+    </section>
+    <!-- HOME SECTION ENDS -->
+
+    <!-- ABOUT SECTION STARTS -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+      <div class="row">
+        <div class="image">
+          <img src="img/Profil.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>FM STORE MUSIC</h3>
+          <p>
+            Disini Anda dapat menemukan berbagai alat recording dan musik yang
+            sesuai dengan kebutuhan dan selera Anda. Kami menjual microphone,
+            headphone, speaker, mixer, sound card, keyboard, gitar. Kami juga
+            menyediakan aksesori dan perlengkapan lainnya, seperti kabel, stand,
+            pop filter, tuner, capo, dan lainnya.<br />
+            Semua produk kami berasal dari merek-merek terkenal dan terpercaya,
+            seperti Audio-Technica, Shure, Behringer, Focusrite, Yamaha, Roland,
+            Fender, Gibson, dan lainnya. Kami menjamin kualitas dan keaslian
+            produk kami. <br />Tunggu apa lagi? Segera pesan alat recording dan
+            musik yang Anda inginkan. Kami menawarkan diskon dan promo menarik
+            setiap harinya. Kami juga melayani pengiriman ke seluruh Indonesia
+            dengan cepat dan aman. Jangan lewatkan kesempatan ini untuk memiliki
+            alat recording dan musik impian Anda!
+          </p>
+          <a
+            href="https://youtube.com/channel/UCRtHy18it_DADHc7Yt_mJaA"
+            class="btn"
+            >klik link channel</a
+          >
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="image">
+          <img src="img/FMStoreMusic.png" alt="" id="channel" />
+        </div>
+        <div class="content">
+          <h3 class="biodata">BIODATA</h3>
+
+          <form>
+            <table>
+              <tr>
+                <td><label for="nama">NAMA</label></td>
+                <td>
+                  <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    value=":    FIRMAN MAULANA"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="nim">NIM</label></td>
+                <td>
+                  <input
+                    type="text"
+                    id="nim"
+                    name="nim"
+                    value=":    TI19220003"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="prodi">PRODI</label></td>
+                <td>
+                  <input
+                    type="text"
+                    id="prodi"
+                    name="prodi"
+                    value=":    TEKNIK INFORMATIKA"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="kampus">KAMPUS</label></td>
+                <td>
+                  <input
+                    type="text"
+                    id="kampus"
+                    name="kampus"
+                    value=":    STMIK LOMBOK"
+                  />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <iframe
+          style="padding-right: 90px"
+          width="420"
+          height="315"
+          src="https://www.youtube.com/embed/uo3TErT7Ebw?autoplay=1&mute=1"
+        >
+        </iframe>
+      </div>
+    </section>
+    <!-- ABOUT SECTION ENDS -->
+
+    <!-- MENU SECTION STARTS -->
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="menu/acoustic-guitar-grey.png" alt="" />
+          <h3>Acoustic Guitar Grey</h3>
+          <div class="price">Rp.1.000.000 <span>1.600.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <img src="menu/acoustic-guitar-chair-black-wall.png" alt="" />
+          <h3>Acoustic Guitar Chair Black</h3>
+          <div class="price">Rp.1.500.000 <span>2.000.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <img src="menu/electric-guitar-gray.png" alt="" />
+          <h3>Electric Guitar gray</h3>
+          <div class="price">Rp.3.500.000 <span>4.000.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <img src="menu/electric-guitar-isolated.png" alt="" />
+          <h3>Elektric Guitar Isolated</h3>
+          <div class="price">Rp.4.500.000 <span>4.700.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <img src="menu/electric_guitar_black.png" alt="" />
+          <h3>Elektric Guitar Black</h3>
+          <div class="price">Rp.3.500.000 <span>3.900.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <img src="menu/bm800.png" alt="" />
+          <h3>Condensor BM-800</h3>
+          <div class="price">Rp.500.000 <span>800.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <img src="menu/Studio_XLR.png" alt="" />
+          <h3>Condensor Studio-XLR</h3>
+          <div class="price">Rp.900.000 <span>1.000.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <img src="menu/neewer_large.png" alt="" />
+          <h3>Condensor Neewer-Large</h3>
+          <div class="price">Rp.1.200.000 <span>1.500.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <img src="menu/akg_d5.png" alt="" />
+          <h3>Dynamic Akg D5</h3>
+          <div class="price">Rp.800.000 <span>900.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+        <div class="box">
+          <img src="menu/shure.png" alt="" />
+          <h3>Dynamic Shure</h3>
+          <div class="price">Rp.700.000 <span>800.000</span></div>
+          <a href="#" class="btn">Masukkan Keranjang</a>
+        </div>
+      </div>
+    </section>
+    <!-- MENU SECTION ENDS -->
+
+    <!-- PRODUCTS SECTION STARTS -->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="menu/v8.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Soundcard V8</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">Rp.200.000 <span>250.000</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="menu/focusrite.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Focusrite</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="price">Rp.700.000 <span>1.000.000</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="menu/Stand-Mic-removebg-preview.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>stand Mic</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">Rp.150.000 <span>190.000</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PRODUCTS SECTION ENDS -->
+
+    <!-- REVIEW SECTION STARTS -->
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="img/quotes_8517863.png" alt="" class="quote" />
+          <p>
+            “Gitar ini sangat bagus dan nyaman dimainkan. Suaranya jernih,
+            senarnya kuat, dan bodinya ringan. Saya sangat puas dengan gitar
+            ini.”
+          </p>
+          <img src="img/customer2.jpg" alt="" class="user" />
+          <h3>Raffi Komala</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/quotes_8517863.png" alt="" class="quote" />
+          <p>
+            “Saya sangat puas dengan produk ini. Kualitasnya bagus,
+            pengirimannya cepat, dan pelayanannya ramah. Terima kasih!”
+          </p>
+          <img src="img/customer1.jpg" alt="" class="user" />
+          <h3>Doni Malaya</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- REVIEW SECTION ENDS -->
+
+    <!-- CONTACT SECTION STARTS -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.929510370776!2d116.27984167604761!3d-8.698244291350477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb1ad111a8a59%3A0xb024ee78db33e0f6!2sSTMIK%20Lombok!5e0!3m2!1sid!2sid!4v1699577085060!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" />
+          </div>
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+    <!-- CONTACT SECTION ENDS -->
+
+    <!-- BLOGS SECTION STARTS -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              src="img/closeup-black-electric-guitar-dark-background.jpg"
+              alt=""
+            />
+          </div>
+
+          <!-- Elemen yang berisi judul, penulis, dan tanggal artikel -->
+          <div class="content">
+            <h2>
+              <a href="#" class="title"
+                >Cara Memilih Gitar yang Tepat untuk Pemula</a
+              >
+            </h2>
+            <p>by admin / 21st may, 2023</p>
+            <p>
+              Anda ingin belajar bermain gitar, tapi bingung harus memilih gitar
+              yang seperti apa? Tenang, kami akan memberikan beberapa tips yang
+              bisa membantu Anda memilih gitar yang sesuai dengan kebutuhan dan
+              kemampuan Anda.
+            </p>
+            <!-- Elemen yang berisi teks yang lebih panjang -->
+            <div id="content" style="display: none">
+              <p>
+                Tentukan jenis gitar yang ingin Anda mainkan. Ada beberapa jenis
+                gitar yang umum digunakan, seperti gitar akustik, gitar
+                elektrik, gitar bass, dan gitar klasik. Setiap jenis gitar
+                memiliki karakteristik, suara, dan cara bermain yang berbeda.
+                Anda dapat memilih jenis gitar yang sesuai dengan genre musik,
+                gaya bermain, dan preferensi Anda. Anda juga dapat mempelajari
+                perbedaan dan kelebihan masing-masing jenis gitar di [link ini].
+                Tentukan ukuran gitar yang nyaman untuk Anda. Ukuran gitar dapat
+                mempengaruhi kenyamanan, kemudahan, dan kualitas bermain Anda.
+                Anda dapat memilih ukuran gitar yang sesuai dengan tinggi,
+                berat, dan postur tubuh Anda. Anda juga dapat memperhatikan
+                panjang, lebar, dan ketebalan leher gitar, serta jarak antara
+                senar dan fret.
+              </p>
+              <p>
+                Tentukan anggaran yang Anda miliki. Harga gitar dapat bervariasi
+                tergantung pada merek, kualitas, fitur, dan aksesori yang
+                ditawarkan. Anda dapat memilih gitar yang sesuai dengan budget
+                Anda, tetapi jangan mengorbankan kualitas dan kinerja gitar.
+                Anda dapat mencari referensi harga gitar dari berbagai merek dan
+                model di [link ini]. Coba dan tes gitar sebelum membeli. Jika
+                Anda membeli gitar secara offline, Anda dapat mencoba dan
+                mengetes gitar yang Anda inginkan di toko musik. Anda dapat
+                memeriksa kondisi fisik, suara, dan kenyamanan gitar. Anda juga
+                dapat meminta bantuan atau saran dari penjual atau teman yang
+                lebih berpengalaman. Jika Anda membeli gitar secara online, Anda
+                dapat membaca review, testimoni, atau spesifikasi gitar yang
+                Anda inginkan di website atau media sosial. Anda juga dapat
+                meminta garansi atau jaminan pengembalian barang jika gitar yang
+                Anda terima tidak sesuai dengan harapan Anda.
+              </p>
+            </div>
+
+            <!-- Elemen yang berisi tombol read more -->
+            <a href="#blogs" id="btn" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              src="img/happy-monday-concept-with-laptop-coffee-cup.jpg"
+              alt=""
+            />
+          </div>
+
+          <!-- Elemen yang berisi judul, penulis, dan tanggal artikel -->
+          <div class="content">
+            <h2>
+              <a href="#" class="title">Memanfaatkan Waktu Dengan Berkarya</a>
+            </h2>
+            <p>by admin / 21st may, 2023</p>
+            <p>
+              Musik adalah salah satu bentuk seni yang dapat mengekspresikan
+              diri, menghibur, dan menginspirasi. Jika Anda memiliki hobi atau
+              bakat di bidang musik, Anda dapat memanfaatkan waktu Anda dengan
+              berkarya dengan musik. Berikut adalah beberapa cara yang dapat
+              Anda coba:
+            </p>
+            <!-- Elemen yang berisi teks yang lebih panjang -->
+            <div id="content" style="display: none">
+              <p>
+                Menciptakan lagu. Anda dapat mencoba menulis lirik, melodi, atau
+                aransemen lagu yang sesuai dengan genre, gaya, atau tema yang
+                Anda inginkan. Anda dapat menggunakan alat musik, aplikasi, atau
+                software yang dapat membantu Anda dalam proses penciptaan lagu.
+                Anda juga dapat belajar dari contoh-contoh lagu yang sudah ada,
+                baik dari musisi lokal maupun internasional.
+              </p>
+              <p>
+                Merekam suara. Anda dapat mencoba merekam suara Anda sendiri,
+                baik menyanyi, bermain alat musik, atau membuat efek suara. Anda
+                dapat menggunakan peralatan rekaman, seperti mikrofon,
+                headphone, speaker, mixer, sound card, atau lainnya. Anda juga
+                dapat menggunakan aplikasi atau software yang dapat membantu
+                Anda dalam proses rekaman, editing, atau mixing suara.
+              </p>
+            </div>
+
+            <!-- Elemen yang berisi tombol read more -->
+            <a href="#blogs" id="btn" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/black-boy-playing-guitar.jpg" alt="" />
+          </div>
+
+          <!-- Elemen yang berisi judul, penulis, dan tanggal artikel -->
+          <div class="content">
+            <h2>
+              <a href="#" class="title"
+                >Cara Memilih Gitar yang Tepat untuk Pemula</a
+              >
+            </h2>
+            <p>by admin / 21st may, 2023</p>
+            <p>
+              Anda ingin belajar bermain gitar, tapi bingung harus memilih gitar
+              yang seperti apa? Tenang, kami akan memberikan beberapa tips yang
+              bisa membantu Anda memilih gitar yang sesuai dengan kebutuhan dan
+              kemampuan Anda.
+            </p>
+            <!-- Elemen yang berisi teks yang lebih panjang -->
+            <div id="content" style="display: none">
+              <p>
+                Tentukan jenis gitar yang ingin Anda mainkan. Ada beberapa jenis
+                gitar yang umum digunakan, seperti gitar akustik, gitar
+                elektrik, gitar bass, dan gitar klasik. Setiap jenis gitar
+                memiliki karakteristik, suara, dan cara bermain yang berbeda.
+                Anda dapat memilih jenis gitar yang sesuai dengan genre musik,
+                gaya bermain, dan preferensi Anda. Anda juga dapat mempelajari
+                perbedaan dan kelebihan masing-masing jenis gitar di [link ini].
+                Tentukan ukuran gitar yang nyaman untuk Anda. Ukuran gitar dapat
+                mempengaruhi kenyamanan, kemudahan, dan kualitas bermain Anda.
+                Anda dapat memilih ukuran gitar yang sesuai dengan tinggi,
+                berat, dan postur tubuh Anda. Anda juga dapat memperhatikan
+                panjang, lebar, dan ketebalan leher gitar, serta jarak antara
+                senar dan fret.
+              </p>
+              <p>
+                Tentukan anggaran yang Anda miliki. Harga gitar dapat bervariasi
+                tergantung pada merek, kualitas, fitur, dan aksesori yang
+                ditawarkan. Anda dapat memilih gitar yang sesuai dengan budget
+                Anda, tetapi jangan mengorbankan kualitas dan kinerja gitar.
+                Anda dapat mencari referensi harga gitar dari berbagai merek dan
+                model di [link ini]. Coba dan tes gitar sebelum membeli. Jika
+                Anda membeli gitar secara offline, Anda dapat mencoba dan
+                mengetes gitar yang Anda inginkan di toko musik. Anda dapat
+                memeriksa kondisi fisik, suara, dan kenyamanan gitar. Anda juga
+                dapat meminta bantuan atau saran dari penjual atau teman yang
+                lebih berpengalaman. Jika Anda membeli gitar secara online, Anda
+                dapat membaca review, testimoni, atau spesifikasi gitar yang
+                Anda inginkan di website atau media sosial. Anda juga dapat
+                meminta garansi atau jaminan pengembalian barang jika gitar yang
+                Anda terima tidak sesuai dengan harapan Anda.
+              </p>
+            </div>
+
+            <!-- Elemen yang berisi tombol read more -->
+            <a href="#blogs" id="btn" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BLOGS SECTION ENDS -->
+
+    <!-- FOOTER SECTION STARS -->
+
+    <section class="footer">
+      <div class="h3">klik logo medsos untuk info lebih lanjut.</div>
+
+      <div class="info">
+        <a
+          href="https://www.facebook.com/profile.php?id=100034846244920"
+          class="fab fa-facebook-f"
+        ></a>
+        <a
+          href="https://instagram.com/__firrrrrrrrrr?igshid=NzZlODBkYWE4Ng=="
+          class="fab fa-instagram"
+        ></a>
+        <a
+          href="https://youtube.com/channel/UCRtHy18it_DADHc7Yt_mJaA"
+          class="fab fa-youtube"
+        ></a>
+        <a
+          href="https://firmanmaulanastmik@gmail.com"
+          class="fas fa-envelope"
+        ></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </div>
+
+      <div class="credit">
+        created by <span>Firman Maulana</span> | all rights reserved
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION ENDS -->
+
+    <!-- JS FILE LINK -->
+    <script src="script.js"></script>
+  </body>
+</html>
